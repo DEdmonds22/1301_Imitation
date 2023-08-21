@@ -6,6 +6,7 @@ const New = () => {
             <h1>New Fruit page</h1>
             {/* action will be the route, method will be the HTTP verb (GET, PUT, POST, DELETE) */}
             <form action='/fruits' method='POST'>   {/* POST - Create*/}
+                {/* name is the key of the value it's going to submit */}
                 Name: <input  type='text' name='name' /><br />
                 Color: <input type='text' name='color' /><br />
                 Is Ready To Eat: <input type='checkbox' name='readyToEat' /><br />
